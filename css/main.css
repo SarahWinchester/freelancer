@@ -4,9 +4,8 @@
   font-size: 3em;
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
+  text-align: center;
   padding-top: 2em;
-  position: relative;
-  left: 17.5em;
   margin-top: 0em;
 }
 
@@ -14,7 +13,7 @@
 
 .AboutContainer {
   background-color: #18BC9C;
-  height: 70vh;
+  height: 100vh;
   width: 100%
 }
 
@@ -28,7 +27,7 @@ body {
 
 body>div {
   background-color: #18BC9C;
-  height: 75vh;
+  height: 75%;
   display: block;
 }
 
@@ -42,23 +41,23 @@ body>div {
   font-weight: bolder;
   position: relative;
   padding: 2em;
-  left: 50em;
+  left: 100%;
   text-decoration: none;
 }
 
 /*Boton de descarga y hoover*/
 
 .button {
-  background-image: none;
+  background-color: #18BC9C;
   border-color: #e9e9e9;
   border-radius: 1px;
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: .7em;
-  margin-top: 15em;
+  margin-top:25%;
   padding: 1em;
   position: relative;
-  right: 39em;
+  right: 29em;
   transition-duration: .8s;
 }
 
@@ -79,8 +78,9 @@ body>div {
 
 .column-footer {
   position: relative;
-  left: 20em;
+  left: 5%;
   bottom: 5em;
+  margin-right: 80px;
   float: left;
   width: 18vw;
 }
@@ -100,8 +100,6 @@ body>div {
 /*Caja central con portafolio*/
 
 #Cage {
-  border-color: #467368;
-  border: 80px;
   position: relative;
   padding-top: 5em;
   left: 15%;
@@ -111,8 +109,9 @@ body>div {
 
 #FormularyContainer {
   padding-top: 3em;
+
   position: relative;
-  left: 40em;
+  left: 30%;
 }
 
 /*Parrafos de About*/
@@ -131,7 +130,7 @@ body .Contenedores section .AboutContainer .parafbox {
   font-family: 'Lato', sans-serif;
   font-size: 1.5em;
   text-align: justify;
-  padding-left: 15%;
+  padding-left: 10%;
 }
 
 /*Boton de SEND en Contact y el hoover*/
@@ -167,7 +166,7 @@ body .Contenedores section .AboutContainer .parafbox {
   position: relative;
   border-color: inherit;
   margin: 50px;
-  left: 48em;
+  left: 37%;
 }
 
 /*Base contact me */
@@ -175,7 +174,7 @@ body .Contenedores section .AboutContainer .parafbox {
 .Caja-ContactME {
   background-color: white;
   margin-top: -2em;
-  height: 110vh;
+  height: 150vh;
   width: 100%
 }
 
@@ -184,7 +183,7 @@ body .Contenedores section .AboutContainer .parafbox {
 .Contenedor {
   background-color: white;
   margin-top: 2em;
-  height: 110vh;
+  height: 130vh;
   width: 100%
 }
 
@@ -194,7 +193,7 @@ body .Contenedores section .AboutContainer .parafbox {
   background-color: #1A252F;
   padding: 1em;
   color: white;
-  text-align: center;
+  text-align: right;
 }
 
 /*Color de toodo el header*/
@@ -247,12 +246,14 @@ h4 {
 /*inputs*/
 
 .input {
-  border: none;
+  border:none;
+  border-bottom: solid;
+  border-color: #a8a8a8;
   font-size: 1.5em;
   font-family: 'Montserrat', sans-serif;
-  height: 2em;
+  height: 7vh;
   margin-bottom: 2em;
-  width: 27em;
+  width: 38vw;
 }
 
 /*Titulo starbootstrap*/
@@ -263,7 +264,7 @@ h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   position: relative;
-  left: 10em;
+  left: 28%;
 }
 
 /*Base Footer*/
@@ -276,10 +277,11 @@ h4 {
 /*Estrella negra */
 
 section .star {
-  position: relative;
+  /* position: relative; */
   border-color: inherit;
+  text-align: center;
   margin: 10px;
-  left: 49em;
+  /*left: 40%;*/
 }
 
 /*Letras de especialidad  o trabajo buscado*/
@@ -295,30 +297,34 @@ section .star {
 /*Lista redes sociales*/
 
 .SocialNet-List {
-  display: inline;
-  padding: 1em;
+  display: inline-block;
+
+  width: 3em;
+  height: 3em;
+  border: 2px solid white;
+  border-radius: 50%;
+
 }
 
 /*Iconos de redes sociales*/
 
 .SocialNet-List i {
   color: white;
-  font-size: 2em;
+  position: relative;
+  top:15px;
+  left: 14px;
 }
 
-.SocialNet-Icon li* {
-  /* FIXME:  */
-  border: 4em;
-  border-color: white;
-}
+
 
 /*Estrella blanca*/
 
 .starWhite {
-  position: relative;
+   position: relative;
   border-color: inherit;
+
   margin: 10px;
-  left: 30em;
+  left: 24%;
 }
 
 .starWhiteContact {
@@ -332,7 +338,7 @@ section .star {
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
   position: relative;
-  left: 10em;
+  left: 23%;
 }
 
 /*Texto contacto */
@@ -344,10 +350,7 @@ section .star {
   font-weight: bolder;
   padding-top: 2em;
 }
-
-/*Lista de las redes sociales */
-
-ul {
-  position: relative;
-  left: -6em;
+footer .row-footer .column-footer ul{
+  margin-left: none;
+  padding-left: 1px;
 }
