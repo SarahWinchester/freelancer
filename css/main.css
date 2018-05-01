@@ -90,10 +90,11 @@ body>div {
 .imagen {
   padding: 1em;
   width: 20vw;
-  transition-duration: .8s;
+
 }
 .imagen:hover{
-  background-color: #467368;
+  transition-duration: .8s;
+  background-color: #467368
 }
 
 /*Caja central con portafolio*/
